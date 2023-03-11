@@ -1,9 +1,20 @@
-# XSS Hunter Express
-## *Sets up in 5 minutes and requires no maintenance*
+<p align="left">
+<a href="#"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-green?colorA=%23ff9933&colorB=%23017e40&style=for-the-badge"></a>
+</p>
 
-The fastest way to set up XSS Hunter to test and find blind cross-site scripting vulnerabilities.
+<p align="center">
+<a href="#"><img title="" src="#" width='500'></a> 
 
-## Setup (Five minutes, try not to skim too much)
+<p align='center' style="font-size:48px; font-family: cursive; "> XSS Hunter Express </p>
+</p>
+
+<p align="center">
+<a href="https://github.com/Pruthviraj-S"><img title="Author" src="https://img.shields.io/badge/Author-Pruthviraj--S-red.svg?logo=github"></a>
+<a href="/LICENSE"><img title="License" src="https://img.shields.io/github/license/Pruthviraj-S/xsshunter"></a>
+<a href="#"><img title="Author" src="https://img.shields.io/badge/Version-v0.6-green.svg"></a>
+</p>
+
+## Setup
 
 ### Requirements
 * `docker` and `docker-compose` installed
@@ -48,9 +59,7 @@ docker-compose up -d postgresdb
 docker-compose up xsshunterexpress
 ```
 
-Assuming all has gone well, you'll see an admin password printed onto your screen. Use this to log into the web panel now hosted at `https://your-hostname.com/admin/`.
 
-**NOTE**: The very first HTTP request to your instance will be slow due to the fact that the service will automatically generate a TLS/SSL certificate. This should only take ~15 seconds.
 
 ## Features
 * **Managed XSS payload fires**: Manage all of your XSS payloads in your XSS Hunter account's control panel.
@@ -89,6 +98,9 @@ Assuming all has gone well, you'll see an admin password printed onto your scree
 
 * The front-end is built in Vue and utilizes the [`vue-black-dashboard`](https://github.com/creativetimofficial/vue-black-dashboard) framework. Licensed under MIT (see [https://github.com/creativetimofficial/vue-black-dashboard#licensing](https://github.com/creativetimofficial/vue-black-dashboard#licensing)).
 
-## Security Vulnerabilities
+* Credits to [mandatoryprogrammer](https://github.com/mandatoryprogrammer) and other contributors for creating the original version.
 
-Find a security vulnerability in this service? Nice job! Please email me at `mandatory(at)gmail.com` and I'll try to fix it as soon as possible.
+## Disclaimer
+Contents of this repository are only for my personal use and refrence. If you want to use the code or have any concern with the modifications, please contact me.
+## Contact
+<p align='left'><a href='https://discord.com/channels/@me/495023063486824467'><img alt="Discord" src="https://img.shields.io/badge/Discord%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a></p>
